@@ -1,5 +1,5 @@
 from typing import Optional
-from TreeNode import TreeNode, generate_TreeNode, generate_List
+from LeetCode import TreeNode
 class Solution:
     def reverseOddLevels(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         def dfs(left: Optional[TreeNode], right: Optional[TreeNode], level: int) -> None:
