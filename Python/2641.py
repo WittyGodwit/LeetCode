@@ -1,6 +1,5 @@
 from typing import Optional
-from typing import Optional
-from TreeNode import TreeNode, generate_TreeNode, generate_List
+from ..TreeNode import TreeNode, generate_TreeNode, generate_List
 class Solution:
     def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         Sum = []
